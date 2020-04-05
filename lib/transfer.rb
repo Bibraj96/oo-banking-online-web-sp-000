@@ -9,7 +9,7 @@ class Transfer
   end
 
   def valid?
-    true if @sender && @receiver == true
+    true if @sender == sender && @receiver == receiver
   end
 
   def execute_transaction
