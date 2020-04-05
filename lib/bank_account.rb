@@ -7,5 +7,6 @@ class BankAccount
     @status = "open"
     if @name != name
       raise.error
+    end
   end
 end
