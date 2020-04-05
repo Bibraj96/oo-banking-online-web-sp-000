@@ -12,15 +12,12 @@ class BankAccount
   end
 
   def display_balance
-
   end
 
   def valid?
-
   end
 
   def close_account
-    
   end
 
 end
